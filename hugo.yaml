@@ -1,4 +1,4 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://Omar7340.github.io
 
 languageCode: bn
 title: "John's Blog"
@@ -68,7 +68,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/Omar7340/Omar7340
   # Default branch of your Git repo
   gitBranch: main
 
@@ -153,11 +153,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
-      services:
+      enabled: false
+      # services:
         # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
+        # google:
+        #   id: G-H4LBG7NDFZ
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>

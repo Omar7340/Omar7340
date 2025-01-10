@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/Omar7340/Omar7340
 
 go 1.21
 
