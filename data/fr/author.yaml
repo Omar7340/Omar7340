@@ -1,0 +1,20 @@
+# some information about you
+name: "Omar OUHBAD"
+nickname: "Omar"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Bonjour, Moi c'est"
+image: "images/author/profil.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "o.ouhbad@gmail.com"
+  # phone: "+0123456789"
+  github: Omar7340
+  linkedin: omar-ouhbad
+  # researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - Je suis un développeur web curieux et polyvalent.  
+  - J’adore explorer et tester de nouvelles technologies.  
+  - Je combine mon intérêt pour l’électronique avec mes projets tech.  
+  - L’impression 3D est une de mes passions que j’intègre souvent dans mes créations.  
