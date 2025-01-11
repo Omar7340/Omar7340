@@ -11,63 +11,46 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Ineris
+    url: "https://www.ineris.fr/fr"
+    location: Verneuil-en-Halatte
+    logo: /images/sections/experiences/ineris_logo.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: L'INERIS (Institut National de l’Environnement Industriel et des Risques) est un organisme français qui évalue et prévient les risques industriels et environnementaux.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Développeur Full Stack
+    start: Août 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: Juin 2023
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+      - "Conception et déploiement de nouvelles fonctionnalités pour le site <a href='https://www.prevair.org' target='_blank'>PREV’AIR</a>, incluant des cartes DOM-TOM et un système de mise en cache pour optimiser les performances."
+      - "Rédéveloppement sécurisé du module Drupal <a href='https://www.ineris.fr/fr/risques/dossiers-thematiques/evaluer-exposition-champs-electomagnetiques/calculer-valeurs-limites' target='_blank'>VALCEM</a> pour Drupal 9, dédié au calcul des expositions aux champs électromagnétiques."
+      - "Pilotage de la mise en place d’un pipeline CI/CD avec Jenkins et Docker."
+      - "Maintenance évolutive de plusieurs sites web, incluant des mises à jour techniques régulières et la gestion proactive de problématiques complexes."
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+  # - designation: Junior Software Engineer
+  #   start: Nov 2017
+  #   end: Oct 2019
+  #   responsibilities:
+  #   - Implement and test xyz feature for abc tool.
+  #   - Support client for abc tool.
+  #   - Learn k,d,w technology for xyz.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Pickidate
+    # url: "https://www.example.com"
+    location: Paris
+    logo: /images/sections/experiences/pickidate_logo.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Pickidate est une startup innovante spécialisée dans le développement de solutions web et mobiles pour simplifier la gestion et l’organisation de rendez-vous en ligne.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Développeur FullStack (Stage)
+    start: Avril 2019
+    end: Juin 2019
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+      - "Création de fonctionnalités pour un site web, incluant un chatbot et des formulaires backend."
+      - "Développement d'une API et d'interfaces web et mobiles."
