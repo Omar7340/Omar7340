@@ -1,0 +1,44 @@
+projects:
+  - name: "Munin: Gestion de traffic"
+    slug: Munin
+    img: assets/munin.png
+    description: Conception et Mise en place d'une architecture microservices pour l'analyse de traffic. Monitoring et visualisation via Grafana.
+    code: https://github.com/Omar7340/Munin
+    demo: false
+    documentation: false
+    categories:
+      - name: DevOps
+        icon: fa-server
+        color: blue
+      - name: IOT
+        icon: fa-microchip
+        color: purple
+    tags:
+      color: blue
+      items:
+        - Python
+        - Grafana
+        - Docker
+        - MQTT
+  
+  - name: "Mudra: Reconnaissance gestuelle (En cours)"
+    slug: Mudra
+    img: assets/mudra.png
+    description: Ensemble d'outils afin de fabriquer une solution de reconnaissance gestuelle cross platform.
+    code: https://github.com/Omar7340/Mudra
+    demo: false
+    documentation: false
+    categories:
+      - name: Computer Vision
+        icon: fa-robot
+        color: green
+      - name: IHM
+        icon: fa-code
+        color: purple
+    tags:
+      color: green
+      items:
+        - Python
+        - Grafana
+        - Docker
+        - MQTT

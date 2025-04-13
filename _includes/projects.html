@@ -1,0 +1,65 @@
+<!-- Projects Section -->
+<section id="projects" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Mes Projets</h2>
+            <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            {% for project in site.data.projects.projects %}
+                <div class="project-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="{{ project.img }}" 
+                            alt="{{ project.slug }}" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            {% for category in project.categories %}
+                                <i class="fas {{ category.icon }} text-{{ category.color }}-500 mr-2"></i>
+                                <span class="text-sm text-{{ category.color }}-500 font-medium mr-2">{{ category.name }}</span>
+                            {% endfor %}
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">{{ project.name }}</h3>
+                        <p class="text-gray-600 mb-4">
+                            {{ project.description }}
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            {% for tag in project.tags.items %}
+                                <span class="bg-{{ project.tags.color }}-100 text-{{ project.tags.color }}-600 px-2 py-1 rounded text-xs">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        <div class="flex space-x-3">
+                            {% if project.code %}
+                                <a href="{{ project.code }}" class="text-{{ project.tags.color }}-500 hover:text-{{ project.tags.color }}-700">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            {% endif %}
+
+                            {% if project.documentation %}
+                                <a href="{{ project.documentation }}" class="text-{{ project.tags.color }}-500 hover:text-{{ project.tags.color }}-700">
+                                    <i class="fas fa-book"></i> Documentation
+                                </a>
+                            {% endif %}
+
+                            {% if project.demo %}
+                                <a href="{{ project.demo }}" class="text-{{ project.tags.color }}-500 hover:text-{{ project.tags.color }}-700">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            
+        </div>
+        
+        <div class="text-center mt-12">
+            <a href="{{ site.data.profil.github }}" target="_blank" class="inline-flex items-center px-6 py-3 border border-blue-500 text-blue-500 rounded-lg hover:bg-blue-50 transition duration-300">
+                Voir tous les Projets
+                <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>

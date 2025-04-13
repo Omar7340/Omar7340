@@ -1,0 +1,32 @@
+categories:
+  - name: DevOps
+    color: blue
+    skills:
+      - Docker
+      - LXC
+      - Jenkins
+      - Proxmox
+      - CI/CD
+      - Gitlab CI
+      - GitHub Actions
+      - Prometheus
+      - Grafana
+  - name: BackEnd
+    color: green
+    skills:
+      - PHP
+      - Python
+      - Django
+      - Django REST
+      - Node.js
+      - REST APIs
+      - PostgreSQL
+      - SQL
+  - name: Other
+    color: purple
+    skills:
+      - Drupal
+      - Git
+      - Linux
+      - Bash
+      - MantisBT

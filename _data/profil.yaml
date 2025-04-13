@@ -1,0 +1,20 @@
+firstname: Omar
+lastname: OUHBAD
+title: "DevOps & Backend Developer"
+location: "Ile-De-France, France"
+formation: Ingénieur informatique
+job_status: A l’écoute d’opportunités
+
+linkedin: https://www.linkedin.com/in/omar-ouhbad/
+github: https://github.com/Omar7340/
+
+short_pitch: |
+  Passionné par les systèmes évolutifs, l’automatisation et l’optimisation d’infrastructure.
+  Je cherche à monter en compétences comme DevOps ou développeur backend.
+
+long_pitch:
+  - Je suis un développeur junior passionné, avec de solides bases en développement backend et une expertise croissante en pratiques DevOps.
+  - | 
+      Je m'intéresse particulièrement à l’analyse de systèmes complexes et à leur amélioration.  
+      J’aime résoudre des problèmes complexes et concevoir des systèmes efficaces et scalables pour des applications modernes.
+  - Dans mon temps libre, je gère mes services auto-hébergés et je m’amuse à rendre mon homelab sous Proxmox aussi performant et complet que possible.

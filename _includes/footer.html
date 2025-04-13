@@ -1,0 +1,22 @@
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0">
+                <a href="#" class="text-2xl font-bold text-white">{{ site.data.profil.firstname }} {{ site.data.profil.lastname }}</a>
+                <p class="text-gray-400 mt-2">{{ site.data.profil.title }}</p>
+            </div>
+            
+            <div class="flex flex-col items-center md:items-end">
+                <div class="flex space-x-6 mb-4">
+                    <a href="{{ site.data.profil.linkedin }}" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="{{ site.data.profil.github }}" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
