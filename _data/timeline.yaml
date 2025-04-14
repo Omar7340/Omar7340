@@ -1,0 +1,30 @@
+- name: Alternant Ingénieur informatique
+  icon: fa-briefcase
+  location: INERIS
+  start_date: Septembre 2020
+  end_date: Juin 2023
+  highlights:
+    - Développé et optimisé des fonctionnalités innovantes pour le site <a class="text-blue-500 hover:text-blue-700 hover:underline" href="https://www.prevair.org/" target="_blank" rel="noopener noreferrer">PREV’AIR<i class="fa-solid fa-up-right-from-square ml-1"></i></a>, améliorant la performance et l'expérience utilisateur.
+    - Sécurisé et migré le module Drupal <a class="text-blue-500 hover:text-blue-700 hover:underline" href="https://www.ineris.fr/fr/valcem/recherche-valeurs-reglementaires-exposition-cem" target="_blank" rel="noopener noreferrer">VALCEM<i class="fa-solid fa-up-right-from-square ml-1"></i></a> vers Drupal 9, garantissant sa conformité et sa fiabilité pour le calcul des expositions électromagnétiques.
+    - Implémenté et orchestré un pipeline CI/CD avec Jenkins et Docker, automatisant les déploiements et réduisant les erreurs.
+
+- name: Diplôme d'Ingénieur Informatique et systèmes d’information
+  icon: fa-graduation-cap
+  location: Conservatoire national des arts et métiers
+  start_date: 2020
+  end_date: 2023
+
+- name: Développeur FullStack - Stage
+  icon: fa-briefcase
+  location: Pickidate
+  start_date: Mars 2019
+  end_date: Juin 2019
+  highlights:
+    - Conçu et déployé des fonctionnalités interactives, enrichissant l'expérience utilisateur sur le web.
+    - Développé des API RESTful et intégré des maquettes responsives pour une interface fluide et moderne.
+
+- name: DUT Informatique
+  icon: fa-graduation-cap
+  location: Université Sorbonne Paris Nord
+  start_date: 2017
+  end_date: 2019
